@@ -9,6 +9,6 @@ class Bookmark
   end
 
   def visit!
-    @last_visited = Time.now
+    Time.now
   end
 end
